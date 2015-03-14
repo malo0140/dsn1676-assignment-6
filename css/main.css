@@ -68,6 +68,13 @@ div {
 
   color: darkgoldenrod;
   text-align: center;
+  transition: all 200ms linear;
+  max-height: 0;
+  overflow: hidden;
+}
+
+.js-panel-collapse {
+  max-height: 10em;   
 }
 
 .panel h2 {
