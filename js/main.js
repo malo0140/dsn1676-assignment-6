@@ -8,7 +8,7 @@ var $btnCollapse = $('.btn-collapse-expand');
 var $panel = $('.panel');
 
 var $btnBounce = $('.btn-bounce');
-var $Circle = $('.circle');
+var $circle = $('.circle');
 
 $showHide.on('click', function () {
     $box.toggleClass('js-box-show');
@@ -23,6 +23,6 @@ $btnCollapse.on('click', function () {
 });
 
 $btnBounce.on('click', function () {
-    $Circle.toggleClass('js-ball-bounce');   
+    $circle.toggleClass('js-ball-bounce');   
 });
 
