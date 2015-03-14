@@ -7,3 +7,4 @@ var $dimond = $('.dimond');
 $showHide.on('click', function () {
     $box.toggleClass('js-box-show');
 });
+
