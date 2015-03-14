@@ -43,12 +43,20 @@ div {
 
 .diamond {
   height: 80px;
-  right: 2em;
+  right: -150px;
   top: calc(50% - 40px);
   width: 80px;
+  opacity: 0;
 
   background-color: hotpink;
   transform: rotate(45deg);
+   transition: all 200ms;
+}
+
+.js-move {
+   right: 2em; 
+    opacity: 1;
+  
 }
 
 .panel {
