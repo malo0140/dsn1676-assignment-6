@@ -50,7 +50,7 @@ div {
 
   background-color: hotpink;
   transform: rotate(45deg);
-   transition: all 200ms;
+   transition: all 150ms;
 }
 
 .js-move {
